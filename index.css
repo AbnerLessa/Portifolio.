@@ -1,0 +1,107 @@
+:root{
+    --principal: blue ;
+    --secundario: white;    
+}
+
+*{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    font-family: 'Roboto Condensed', sans-serif;      
+    color: var(--secundario);
+}
+
+body{
+    background-color: black;
+    margin: 0 50px 0 50px;
+}
+
+header{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--principal);
+}
+
+header *{
+    margin: 20px;
+}
+
+header img{
+    border-radius: 100%;
+}
+
+img#hero{
+    width: 200px;
+    margin: 10px 0px 10px 0px;
+}
+
+nav{
+    background-color: black;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav ul li{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav ul li :hover{
+    background-color: var(--principal);
+}
+
+nav ul li a{
+    justify-content: space-evenly;
+    text-decoration: none;
+    font-weight: bolder;
+    color: var(--secundario);
+}
+
+nav ul li a :hover{
+    color: var(--secundario);
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    background-color: var(--principal);
+    ;
+}
+
+img#img_a{
+    width: 550px;
+}
+
+img#img_b{
+    width: 400px;
+}
+
+
+img#img_c{
+    width: 500px;
+}
+
+footer{
+    background-color: var(--principal);
+    position: fixed;
+    bottom: 0px;
+    height: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
